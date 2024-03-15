@@ -12,7 +12,3 @@ services:
       - redis
     environment:
       - FLASK_ENV=development
-
-  redis:
-    container_name: redis-db-backend
-    image: 'redis:alpine'
